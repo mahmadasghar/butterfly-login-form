@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header>    
         <div class="h-p">
-            <div class="date">
+            <div class="Date">
                 <label>
                     <input type="date">
                     <input type="time">
@@ -56,23 +57,90 @@
     <!-- Header Finish -->
     <section>
         <div class="container">
-            <div class="cont">
+            <div class="cont-1">
                     <div class="box">
                         <div class="f-item">
                             <label for="fname">First name</label><br>
-                            <input type="text" id="frame" placeholder="First name">
+                            <input type="text" id="Fname" placeholder="Fname">
                         </div>
                         <div class="f-item">
-                            <label for="fname">Innamw</label><br>
+                            <label for="fname">Inname</label><br>
                             <input type="text" id="Inname" placeholder="Inname">
                         </div>
                         <div class="f-item">
                             <label for="email">email</label><br>
                             <input type="email" id="email" placeholder="email">
                         </div>
+                        <div class="f-radio">
+                            <label>Gender</label>
+                            <div class="f-r-gen">
+                                <input type="radio" name="gender" value="male">
+                                <label>male</label>
+                                <input type="radio" name="gender" value="female">
+                                <label>female</label>
+                                <input type="radio" name="gender" value="other">
+                                <label>other</label>
+                            </div>
+                        </div>
+                        <div class="add">
+                            <label>Adress</label><br>
+                            <textarea name="Adress" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="f-item">
+                            <label for="mname">middle name</label><br>
+                            <input type="text" id="mname" placeholder="mname">
+                        </div>
+                        <div class="f-item">
+                            <label for="mo no">Mo No</label><br>
+                            <input type="text" id="number" placeholder="mo no">
+                        </div>
+                        <div class="f-item">
+                            <label for="password">password</label><br>
+                            <input type="password" id="password" placeholder="password">
+                        </div>
+                        </div>
+                        <div class="f-item">
+                            <label for="url">url</label><br>
+                            <input type="url" id="url" placeholder="url">
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button type="reset" value="reset">Reset</button>
+                        <button type="submit" value="submit">Submit</button>
                     </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="f-ter">
+            <div class="f-box">M Ahmad Asghar</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>company</th>
+                        <th>services</th>
+                        <th>Accounts</th>
+                        <th>course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>home</td>
+                        <td>app desi</td>
+                        <td>profile</td>
+                        <td>html</td>
+                    </tr>
+                    <tr>
+                        <td>logo des</td>
+                        <td>photography</td>
+                        <td>banner</td>
+                        <td>javascript</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </footer>
 </body>
 </html>
