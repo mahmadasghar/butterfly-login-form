@@ -11,6 +11,8 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #f5deb3;
     box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 header{
     width: 90%;
@@ -170,10 +172,58 @@ button{
 }
 .f-box{
     width: 80%;
-    margin: auto;
+    margin: 1em auto;
     font-size: 1.5em;
 }
 table{
     border-collapse: collapse;
     width: 80%;
 }
+td,th{
+    padding: 10px;
+}
+@media  screen and(200px<= width <=950) {
+    .Date,h1{
+        width: 250px;
+        height: 100px;
+        margin: auto;
+    }
+   h1{
+    font-size: x-large;
+}
+   .h-p img{
+    margin: auto;
+
+}
+}
+@media screen and (200px<= width <= 750){
+    .row{
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    .row input{
+        margin: 10px;
+    }
+    footer{
+        margin: auto;
+    }
+    td,td{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (200px<= width <=600){
+    ul{
+        background: transparent;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    li{
+        margin: 5px;
+    }
+}
+    
